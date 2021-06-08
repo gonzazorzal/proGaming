@@ -9,4 +9,4 @@ app.use(express.static('public'));
 
 app.get('/', (req,res) => res.sendFile(path.join(views,'home.html')));
 app.get('/contacto', (req,res) => res.sendFile(path.join(views,'contacto.html')));
-app.get('/producto', (req,res) => res.sendFile(path.join(views,'producto.html')));
+app.get('/productos', (req,res) => res.sendFile(path.join(views,'productos.html')));
